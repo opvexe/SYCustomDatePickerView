@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C23054AB219B0BAE00DC797B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C23054AA219B0BAE00DC797B /* AppDelegate.m */; };
+		C23054AE219B0BAE00DC797B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C23054AD219B0BAE00DC797B /* ViewController.m */; };
+		C23054B1219B0BAE00DC797B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C23054AF219B0BAE00DC797B /* Main.storyboard */; };
+		C23054B3219B0BAF00DC797B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C23054B2219B0BAF00DC797B /* Assets.xcassets */; };
+		C23054B6219B0BAF00DC797B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C23054B4219B0BAF00DC797B /* LaunchScreen.storyboard */; };
+		C23054B9219B0BAF00DC797B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C23054B8219B0BAF00DC797B /* main.m */; };
+		C23054C3219B0BAF00DC797B /* SYPickerViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C23054C2219B0BAF00DC797B /* SYPickerViewTests.m */; };
+		C23054D0219B0BF400DC797B /* SYCustomDateModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C23054CF219B0BF400DC797B /* SYCustomDateModel.m */; };
+		C23054D3219B0C3000DC797B /* SYCustomDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = C23054D2219B0C3000DC797B /* SYCustomDatePickerView.m */; };
+		C23054D6219B0EE100DC797B /* SYToolBarDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = C23054D5219B0EE100DC797B /* SYToolBarDatePickerView.m */; };
+		C23054D9219B102000DC797B /* SYCustomPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = C23054D8219B102000DC797B /* SYCustomPickerView.m */; };
+		C23054DC219B132200DC797B /* NSDate+SYExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = C23054DB219B132200DC797B /* NSDate+SYExtension.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C23054BF219B0BAF00DC797B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C230549E219B0BAE00DC797B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C23054A5219B0BAE00DC797B;
+			remoteInfo = SYPickerView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C23054A6219B0BAE00DC797B /* SYPickerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SYPickerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C23054A9219B0BAE00DC797B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C23054AA219B0BAE00DC797B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C23054AC219B0BAE00DC797B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C23054AD219B0BAE00DC797B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C23054B0219B0BAE00DC797B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C23054B2219B0BAF00DC797B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C23054B5219B0BAF00DC797B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C23054B7219B0BAF00DC797B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C23054B8219B0BAF00DC797B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C23054BE219B0BAF00DC797B /* SYPickerViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SYPickerViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C23054C2219B0BAF00DC797B /* SYPickerViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYPickerViewTests.m; sourceTree = "<group>"; };
+		C23054C4219B0BAF00DC797B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C23054CE219B0BF400DC797B /* SYCustomDateModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYCustomDateModel.h; sourceTree = "<group>"; };
+		C23054CF219B0BF400DC797B /* SYCustomDateModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYCustomDateModel.m; sourceTree = "<group>"; };
+		C23054D1219B0C3000DC797B /* SYCustomDatePickerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYCustomDatePickerView.h; sourceTree = "<group>"; };
+		C23054D2219B0C3000DC797B /* SYCustomDatePickerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYCustomDatePickerView.m; sourceTree = "<group>"; };
+		C23054D4219B0EE100DC797B /* SYToolBarDatePickerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYToolBarDatePickerView.h; sourceTree = "<group>"; };
+		C23054D5219B0EE100DC797B /* SYToolBarDatePickerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYToolBarDatePickerView.m; sourceTree = "<group>"; };
+		C23054D7219B102000DC797B /* SYCustomPickerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYCustomPickerView.h; sourceTree = "<group>"; };
+		C23054D8219B102000DC797B /* SYCustomPickerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYCustomPickerView.m; sourceTree = "<group>"; };
+		C23054DA219B132200DC797B /* NSDate+SYExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+SYExtension.h"; sourceTree = "<group>"; };
+		C23054DB219B132200DC797B /* NSDate+SYExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+SYExtension.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C23054A3219B0BAE00DC797B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C23054BB219B0BAF00DC797B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C230549D219B0BAE00DC797B = {
+			isa = PBXGroup;
+			children = (
+				C23054CD219B0BD800DC797B /* SYDatePickerView */,
+				C23054A8219B0BAE00DC797B /* SYPickerView */,
+				C23054C1219B0BAF00DC797B /* SYPickerViewTests */,
+				C23054A7219B0BAE00DC797B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C23054A7219B0BAE00DC797B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C23054A6219B0BAE00DC797B /* SYPickerView.app */,
+				C23054BE219B0BAF00DC797B /* SYPickerViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C23054A8219B0BAE00DC797B /* SYPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				C23054A9219B0BAE00DC797B /* AppDelegate.h */,
+				C23054AA219B0BAE00DC797B /* AppDelegate.m */,
+				C23054AC219B0BAE00DC797B /* ViewController.h */,
+				C23054AD219B0BAE00DC797B /* ViewController.m */,
+				C23054AF219B0BAE00DC797B /* Main.storyboard */,
+				C23054B2219B0BAF00DC797B /* Assets.xcassets */,
+				C23054B4219B0BAF00DC797B /* LaunchScreen.storyboard */,
+				C23054B7219B0BAF00DC797B /* Info.plist */,
+				C23054B8219B0BAF00DC797B /* main.m */,
+			);
+			path = SYPickerView;
+			sourceTree = "<group>";
+		};
+		C23054C1219B0BAF00DC797B /* SYPickerViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				C23054C2219B0BAF00DC797B /* SYPickerViewTests.m */,
+				C23054C4219B0BAF00DC797B /* Info.plist */,
+			);
+			path = SYPickerViewTests;
+			sourceTree = "<group>";
+		};
+		C23054CD219B0BD800DC797B /* SYDatePickerView */ = {
+			isa = PBXGroup;
+			children = (
+				C23054CE219B0BF400DC797B /* SYCustomDateModel.h */,
+				C23054CF219B0BF400DC797B /* SYCustomDateModel.m */,
+				C23054D1219B0C3000DC797B /* SYCustomDatePickerView.h */,
+				C23054D2219B0C3000DC797B /* SYCustomDatePickerView.m */,
+				C23054D4219B0EE100DC797B /* SYToolBarDatePickerView.h */,
+				C23054D5219B0EE100DC797B /* SYToolBarDatePickerView.m */,
+				C23054D7219B102000DC797B /* SYCustomPickerView.h */,
+				C23054D8219B102000DC797B /* SYCustomPickerView.m */,
+				C23054DA219B132200DC797B /* NSDate+SYExtension.h */,
+				C23054DB219B132200DC797B /* NSDate+SYExtension.m */,
+			);
+			path = SYDatePickerView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C23054A5219B0BAE00DC797B /* SYPickerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C23054C7219B0BAF00DC797B /* Build configuration list for PBXNativeTarget "SYPickerView" */;
+			buildPhases = (
+				C23054A2219B0BAE00DC797B /* Sources */,
+				C23054A3219B0BAE00DC797B /* Frameworks */,
+				C23054A4219B0BAE00DC797B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SYPickerView;
+			productName = SYPickerView;
+			productReference = C23054A6219B0BAE00DC797B /* SYPickerView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C23054BD219B0BAF00DC797B /* SYPickerViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C23054CA219B0BAF00DC797B /* Build configuration list for PBXNativeTarget "SYPickerViewTests" */;
+			buildPhases = (
+				C23054BA219B0BAF00DC797B /* Sources */,
+				C23054BB219B0BAF00DC797B /* Frameworks */,
+				C23054BC219B0BAF00DC797B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C23054C0219B0BAF00DC797B /* PBXTargetDependency */,
+			);
+			name = SYPickerViewTests;
+			productName = SYPickerViewTests;
+			productReference = C23054BE219B0BAF00DC797B /* SYPickerViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C230549E219B0BAE00DC797B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = FaceBook;
+				TargetAttributes = {
+					C23054A5219B0BAE00DC797B = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					C23054BD219B0BAF00DC797B = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = C23054A5219B0BAE00DC797B;
+					};
+				};
+			};
+			buildConfigurationList = C23054A1219B0BAE00DC797B /* Build configuration list for PBXProject "SYPickerView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C230549D219B0BAE00DC797B;
+			productRefGroup = C23054A7219B0BAE00DC797B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C23054A5219B0BAE00DC797B /* SYPickerView */,
+				C23054BD219B0BAF00DC797B /* SYPickerViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C23054A4219B0BAE00DC797B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C23054B6219B0BAF00DC797B /* LaunchScreen.storyboard in Resources */,
+				C23054B3219B0BAF00DC797B /* Assets.xcassets in Resources */,
+				C23054B1219B0BAE00DC797B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C23054BC219B0BAF00DC797B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C23054A2219B0BAE00DC797B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C23054D3219B0C3000DC797B /* SYCustomDatePickerView.m in Sources */,
+				C23054D0219B0BF400DC797B /* SYCustomDateModel.m in Sources */,
+				C23054DC219B132200DC797B /* NSDate+SYExtension.m in Sources */,
+				C23054D6219B0EE100DC797B /* SYToolBarDatePickerView.m in Sources */,
+				C23054AE219B0BAE00DC797B /* ViewController.m in Sources */,
+				C23054D9219B102000DC797B /* SYCustomPickerView.m in Sources */,
+				C23054B9219B0BAF00DC797B /* main.m in Sources */,
+				C23054AB219B0BAE00DC797B /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C23054BA219B0BAF00DC797B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C23054C3219B0BAF00DC797B /* SYPickerViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C23054C0219B0BAF00DC797B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C23054A5219B0BAE00DC797B /* SYPickerView */;
+			targetProxy = C23054BF219B0BAF00DC797B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C23054AF219B0BAE00DC797B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C23054B0219B0BAE00DC797B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C23054B4219B0BAF00DC797B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C23054B5219B0BAF00DC797B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C23054C5219B0BAF00DC797B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C23054C6219B0BAF00DC797B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C23054C8219B0BAF00DC797B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3NJC3EGBWR;
+				INFOPLIST_FILE = SYPickerView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = FaceBook.SYPickerView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C23054C9219B0BAF00DC797B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3NJC3EGBWR;
+				INFOPLIST_FILE = SYPickerView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = FaceBook.SYPickerView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C23054CB219B0BAF00DC797B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3NJC3EGBWR;
+				INFOPLIST_FILE = SYPickerViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = FaceBook.SYPickerViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SYPickerView.app/SYPickerView";
+			};
+			name = Debug;
+		};
+		C23054CC219B0BAF00DC797B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3NJC3EGBWR;
+				INFOPLIST_FILE = SYPickerViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = FaceBook.SYPickerViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SYPickerView.app/SYPickerView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C23054A1219B0BAE00DC797B /* Build configuration list for PBXProject "SYPickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C23054C5219B0BAF00DC797B /* Debug */,
+				C23054C6219B0BAF00DC797B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C23054C7219B0BAF00DC797B /* Build configuration list for PBXNativeTarget "SYPickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C23054C8219B0BAF00DC797B /* Debug */,
+				C23054C9219B0BAF00DC797B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C23054CA219B0BAF00DC797B /* Build configuration list for PBXNativeTarget "SYPickerViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C23054CB219B0BAF00DC797B /* Debug */,
+				C23054CC219B0BAF00DC797B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C230549E219B0BAE00DC797B /* Project object */;
+}
