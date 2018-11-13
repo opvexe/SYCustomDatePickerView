@@ -78,6 +78,7 @@
 		C230549D219B0BAE00DC797B = {
 			isa = PBXGroup;
 			children = (
+				C23054DD219B15A600DC797B /* SYCalenderView */,
 				C23054CD219B0BD800DC797B /* SYDatePickerView */,
 				C23054A8219B0BAE00DC797B /* SYPickerView */,
 				C23054C1219B0BAF00DC797B /* SYPickerViewTests */,
@@ -134,6 +135,13 @@
 				C23054DB219B132200DC797B /* NSDate+SYExtension.m */,
 			);
 			path = SYDatePickerView;
+			sourceTree = "<group>";
+		};
+		C23054DD219B15A600DC797B /* SYCalenderView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SYCalenderView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
